@@ -1,0 +1,26 @@
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.nav-link:hover {
+  
+  /* background-color: white; */ 
+  border-radius: 20px;
+  border: 10px solid white;
+}
+
+
+.card {
+    display: flex;
+  align-items: row;
+  justify-content: center;
+  transition: 0.1s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out 0.3s;
+  border-radius: 40px;
+}
